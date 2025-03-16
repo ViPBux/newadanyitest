@@ -3,7 +3,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Image from "next/image";
 import Loading from "../components/Loader";
-import BlockAdBlock from "@blockadblock";
+
 
 const Page = () => {
   const [adsData, setAdsData] = useState<any[]>([]);
